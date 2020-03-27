@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PostRequest">
+      <class name="deleteRequest">
         <methods>
-          <include name="CreateUser"/>
+          <include name="deleteEmployee"/>
         </methods>
-      </class> <!-- PostRequest -->
+      </class> <!-- deleteRequest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
